@@ -53,4 +53,22 @@ function Sum(){
 
 
  
+function Gyok(){
+   num = document.getElementById("Number1").value
+   document.getElementById("Equal").innerHTML = Math.sqrt(num)
+}
 
+function Sin(){
+   num = document.getElementById("Number1").value
+   document.getElementById("Equal").innerHTML = Math.sin(num)
+}
+
+function Cos(){
+   num = document.getElementById("Number1").value
+   document.getElementById("Equal").innerHTML = Math.cos(num)
+}
+
+function Log(){
+   num = document.getElementById("Number1").value
+   document.getElementById("Equal").innerHTML = Math.log(num)
+}
