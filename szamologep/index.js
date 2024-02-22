@@ -39,13 +39,15 @@ function Sum(){
     let Num2 =  parseInt(document.getElementById("Number2").value)
     if(Num1 < Num2 ){
        let num3 = Num1 / Num2 * 100
-       document.getElementById("Szazaleksz").value = num3
+       document.getElementById("Equal").value = num3 + "%"
 
     }
     else if(Num1 > Num2){
         let num4 =   Num2 / Num1 * 100 
-            document.getElementById("Szazaleksz").innerHTML = num4
+            document.getElementById("Equal").innerHTML = num4 + "%"
     }
     
  }
+
+
  
