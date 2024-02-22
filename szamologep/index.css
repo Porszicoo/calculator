@@ -46,5 +46,23 @@
   transform: translateY(2px);
 }
 #numbers{
-    margin: 202px;
+    margin: 550px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns:110px 110px 110px ;
+}
+
+#buttons{
+    margin: 700px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns:110px 110px 110px ;
+    position: relative ;
+    top: -901px ;
+    right: -240px ;
+}
+#area{
+    position: relative;
+    top: -1915px;
+    right: -555px;
 }
