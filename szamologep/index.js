@@ -53,9 +53,4 @@ function Sum(){
 
 
  
-//fagsxdgjdcwhjdw
-//fagsxdgjdcwhjdw
-//fagsxdgjdcwhjdw
-//fagsxdgjdcwhjdw
-//fagsxdgjdcwhjdw
 

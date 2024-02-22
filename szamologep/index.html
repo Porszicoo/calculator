@@ -8,29 +8,32 @@
 </head>
 <body>
     <div>
-        <button class="szamok">0</button>
-        <button class="szamok">1</button>
-        <button class="szamok">2</button>
-        <button class="szamok">3</button>
-        <button class="szamok">4</button>
-        <button class="szamok">5</button>
-        <button class="szamok">6</button>
-        <button class="szamok">7</button>
-        <button class="szamok">8</button>
-        <button class="szamok">9</button>
-    </div>
-    <button onclick="NewPage()">Nyomd meg</button>
+        <div id="numbers">
+            <button class="szamok">0</button>
+            <button class="szamok">1</button>
+            <button class="szamok">2</button>
+            <button class="szamok">3</button>
+            <button class="szamok">4</button>
+            <button class="szamok">5</button>
+            <button class="szamok">6</button>
+            <button class="szamok">7</button>
+            <button class="szamok">8</button>
+            <button class="szamok">9</button>
+        </div>
+        <button onclick="NewPage()">Nyomd meg</button>
 
-
-    <button onclick="Sum()">Összeadás</button>
-    <Button onclick="Kivon()">Kivonás</Button>
-    <button onclick="Osztas()">Osztás</button>
-    <button onclick="Szorzas()">Szorzás</button>
-    <button onclick="Szazalek()">Százalék Számítás</button>
-    <button onclick="Gyok()">Gyök</button>
-    <input type="number" id="Number1">
-    <input type="number" id="Number2">
-    <p id="Equal"></p>
+        <div></div>
+            <button onclick="Sum()">+</button>
+            <Button onclick="Kivon()">-</Button>
+            <button onclick="Osztas()">/</button>
+            <button onclick="Szorzas()">*</button>
+            <button onclick="Szazalek()">%</button>
+            <button onclick="Gyok()">Gyök</button>
+            <input type="number" id="Number1">
+            <input type="number" id="Number2">
+            <p id="Equal"></p>
+        </div>
+</div>
 
     
 
