@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="numbers">
         <button class="szamok button-30">0</button>
         <button class="szamok button-30">1</button>
         <button class="szamok button-30">2</button>
@@ -18,22 +18,25 @@
         <button class="szamok button-30">7</button>
         <button class="szamok button-30">8</button>
         <button class="szamok button-30">9</button>
+        <button class="szamok button-30">Új szám</button>
     </div>
-    <button class="button-30" onclick="NewPage()">Nyomd meg</button>
+    
 
-
-    <button class="button-30" onclick="Sum()">Összeadás</button>
-    <Button class="button-30" onclick="Kivon()">Kivonás</Button>
-    <button class="button-30" onclick="Osztas()">Osztás</button>
-    <button class="button-30" onclick="Szorzas()">Szorzás</button>
-    <button class="button-30" onclick="Szazalek()">Százalék Számítás</button>
-    <button class="button-30" onclick="Gyok()">Gyök</button>
-    <button class="button-30" onclick="Sin()">Sin</button>
-    <button class="button-30" onclick="Cos()">Cos</button>
-    <button class="button-30" onclick="Log()">Log</button>
-    <input type="number" id="Number1">
-    <input type="number" id="Number2">
-    <p id="Equal"></p>
+    <div id="buttons">
+        <button class="button-30" onclick="Sum()">+</button>
+        <Button class="button-30" onclick="Kivon()">-</Button>
+        <button class="button-30" onclick="Osztas()">/</button>
+        <button class="button-30" onclick="Szorzas()">*</button>
+        <button class="button-30" onclick="Szazalek()">%</button>
+        <button class="button-30" onclick="Gyok()">Gyök</button>
+        <button class="button-30" onclick="Sin()">Sin</button>
+        <button class="button-30" onclick="Cos()">Cos</button>
+        <button class="button-30" onclick="Log()">Log</button>
+    </div>
+    <div id="area">
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+    </div>
+    
 
     
 
